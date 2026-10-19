@@ -1,0 +1,27 @@
+{
+  "name": "artifact-freshness-guard",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "SHA-256 fingerprints that invalidate proof when artifacts change.",
+  "main": "artifact-freshness-guard.js",
+  "exports": {
+    ".": "./artifact-freshness-guard.js"
+  },
+  "files": [
+    "artifact-freshness-guard.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "artifact-freshness-guard"
+  ],
+  "license": "MIT"
+}
